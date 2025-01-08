@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moneda Nacional</title>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <main>
+        <div id="ToDoList">
+            <h1>Conversor de Moneda Nacional</h1>
+            <hr>
+            <div class="background">
+                <p>Pesos CLP</p>
+    
+                <input id="cantidad" class="ingreso-item" type="number" placeholder="Ingrese el monto en CLP">
+                <p class="item">Moneda a convertir:</p>
+                <select id="moneda">
+                    <option value="uf">UF</option>
+                    <option value="ivp">IVP</option>
+                    <option value="dolar">Dólar</option>
+                    <option value="euro">Euro</option>
+                    <option value="ipc">IPC</option>
+                    <option value="utm">UTM</option>
+                    <option value="imacec">IMACEC</option>
+                </select>
+    
+                <button id="agregar" class="agregar ingreso-item" id="boton-ingreso">Buscar</button>
+                <p class="izq">Resultado: $<span id="resultado">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>

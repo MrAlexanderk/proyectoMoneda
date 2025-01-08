@@ -1,0 +1,67 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ToDoList{
+    text-align: center;
+    width: 25%;
+    background-color: antiquewhite;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.ingreso-item{
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    height: 30px;
+    text-align: center;
+}
+.agregar{
+    margin-top: 15px;
+    background-color: #A34A28;
+    color: #DFDDC7;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.agregar:hover{
+    scale: 1.01;
+    cursor: pointer;
+}
+.background{
+    width: 250px;
+}
+.izq{
+    text-align: left;
+}
+select{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
