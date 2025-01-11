@@ -22,17 +22,19 @@
                     <option value="ivp">IVP</option>
                     <option value="dolar">Dólar</option>
                     <option value="euro">Euro</option>
-                    <option value="ipc">IPC</option>
                     <option value="utm">UTM</option>
-                    <option value="imacec">IMACEC</option>
                 </select>
     
-                <button id="agregar" class="agregar ingreso-item" id="boton-ingreso">Buscar</button>
+                <button id="agregar" class="agregar ingreso-item">Buscar</button>
                 <p class="izq">Resultado: $<span id="resultado">0</span></p>
+                
             </div>
+            <canvas id="grafico"></canvas>
+            <h2 id="info">Seleccione "Buscar"para comenzar</h2>
         </div>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="/index.js"></script>
 </body>
 </html>
